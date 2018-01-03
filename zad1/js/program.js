@@ -20,7 +20,7 @@ process.stdin.on('readable', function() {
                 console.log(process.env.LANG);
                 break;
 
-            case 'exit':// dlaczego exit nie dziala????? 
+            case '/exit':// dlaczego exit nie dziala????? 
                 console.log('Quitting app!\n');
                 process.exit();
     
