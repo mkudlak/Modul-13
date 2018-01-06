@@ -13,3 +13,4 @@ seconds per hour - giving 3700 seconds will display 1 hour. 1 minute 40 sec
 add module modules directory and use it in the OSinfo module to properly format the system's operating time.
 
 zad 3 - exe 3
+Task: Creating a project with npm
