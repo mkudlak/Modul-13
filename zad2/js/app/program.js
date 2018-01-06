@@ -2,7 +2,7 @@ var OSinfo = require('../modules/OSinfo');
 OSinfo.print();
 
 var timeCalc = require('../modules/timeCalc');
-time.print();
+timeCalc.print();
 
 process.stdin.setEncoding('utf-8');
 process.stdin.on('readable', function() {
