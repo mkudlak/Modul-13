@@ -33,19 +33,6 @@ exports.upload = function(request, response) {
         response.write("<img src='/show' />");
         response.end();
     });
-    switch (request.url) {
-        case '/':
-        case '/start':
-            handlers.welcome(request, response);
-            break;
-        case '/upload':
-            handlers.upload(request, response);
-            break;
-        case '/show':
-            handlers.show(request, response);
-            break;
-    }
-    
 }
 
 exports.show = function(request, response) {
